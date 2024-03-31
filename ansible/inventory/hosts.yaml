@@ -1,0 +1,8 @@
+---
+kubernetes:
+  children:
+    controllers:
+      hosts:
+        "vim4":
+          ansible_user: "khadas"
+          ansible_host: "192.168.1.83"
